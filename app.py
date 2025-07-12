@@ -49,7 +49,6 @@ st.markdown(
 import streamlit as st
 
 st.markdown(
-    """
     <style>
     /* 1. Full‑page gradient background */
     .stApp {
