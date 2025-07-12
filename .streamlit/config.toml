@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#405DE6"             # Greycuff blue
+backgroundColor = "#FFFFFF"          # solid white everywhere
+secondaryBackgroundColor = "#FFFFFF" # cards & sidebar white
+textColor = "#111111"                # dark text
+font = "sans serif"
