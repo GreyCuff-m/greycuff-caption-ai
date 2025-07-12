@@ -1,4 +1,29 @@
 import streamlit as st
+
+st.markdown(
+    """
+    <style>
+      /* Full-page background */
+      .stApp {
+        background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0') center/cover no-repeat;
+      }
+      /* App content container */
+      .main .block-container {
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 12px;
+        padding: 2rem;
+      }
+      /* Title style */
+      .css-uf99v8 h1 {
+        font-family: 'Arial Black', sans-serif;
+        color: #4B4E6D;
+      }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+import streamlit as st
 from generator import generate_caption
 
 st.set_page_config(page_title="Greycuff Caption AI", layout="centered")
