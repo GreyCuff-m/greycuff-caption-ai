@@ -1,6 +1,7 @@
+# .streamlit/config.toml
 [theme]
-primaryColor = "#4B4E6D"
-backgroundColor = "#F5F5F7"
-secondaryBackgroundColor = "#FFFFFF"
-textColor = "#333333"
+primaryColor = "#405DE6"             # Instagram‑purple accent
+backgroundColor = "#FFFFFF"          # App background
+secondaryBackgroundColor = "#FFFFFF" # Sidebar / cards
+textColor = "#111111"                # Dark text
 font = "sans serif"
